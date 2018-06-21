@@ -1,0 +1,113 @@
+.bg {
+	background-image: url(../img/bg.jpg);
+  height: 100%;
+}
+/* label color */
+   .input-field label {
+     color: #590c0c;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #590c0c;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #590c0c;
+     box-shadow: 0 1px 0 0 #590c0c;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #590c0c;
+     box-shadow: 0 1px 0 0 #590c0c;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #590c0c;
+     box-shadow: 0 1px 0 0 #590c0c;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #590c0c;
+   }
+
+   .bg-login{
+   	margin-top: 20%;
+   	background: #ffffff;
+   	border-radius: 15px;
+    margin-bottom: 17.5%;
+   }
+
+   .bg-logo > img{
+   	width: 120px;
+   	height: auto;
+   	margin-left: 30%;
+   	margin-top: 30px;
+   }
+   .bg-btn{
+    width: 100%;
+    background: #590c0c;
+   }
+   .bg-btn:hover {
+    background: white;
+    color: #590c0c;
+   }
+
+   .hero  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .img-hero {
+    width: 100%;
+    height: auto;
+   } 
+
+   .justify-align{
+    text-align: justify;
+   }
+   .objetivos {
+    background-image: url(../img/bg2.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .objetivos-img{
+    width: 10%;
+    height: auto;
+   }
+   .footer {
+    background: #590c0c;
+    margin-bottom: 0px;
+   }
+   .row {
+     margin-bottom: 0px;
+   }
+   .calendario {
+    height: 900px;
+   }
+    .tabla {
+    height: 450px;
+   }
+
+   .btn {
+    background: #590c0c;
+    color:#ffffff;
+    border:solid 1px #ffffff;
+   }
+   .btn:hover {
+    background: #ffffff;
+    color:#590c0c;
+    border:solid 1px #590c0c;
+   }
+    .btn-large {
+    background: #590c0c;
+    color:#ffffff;
+    border:solid 1px #ffffff;
+   }
+   .btn-large:hover {
+    background: #ffffff;
+    color:#590c0c;
+    border:solid 1px #590c0c;
+   }
+.page-header {
+  color: grey;
+  text-align: center;
+}
